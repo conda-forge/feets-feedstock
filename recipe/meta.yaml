@@ -1,5 +1,5 @@
 {% set name = "feets" %}
-{% set version = "0.4" %}
+{% set version = "1.0.1" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
-  sha256: "f74e539a385a182e9bddcc444c96639dd953d9cd04bd6865458817285e1fb207"
+  sha256: "a09411fc22afee6a41bf497a1b0d451783630517f76e22a0101b59664b2a3006"
 
 build:
   noarch: python
